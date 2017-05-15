@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <?php
-$title = "La imagen melancólica: La fotográfica y su incidencia en la construcción de la memoria";
+$title = "La imagen melancólica: Fotografía y su incidencia en la construcción de la memoria";
 $descripcion = "Pongan acá su descripción.";
 ?>
 <head>
@@ -11,7 +11,7 @@ $descripcion = "Pongan acá su descripción.";
 <title><?php echo($title);?></title>
 <!--acá vamos a meter varios metadatos-->
 <meta name="robots" content="noindex">
-<link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Droid+Sans:400,700" rel="stylesheet">
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="bootstrap/style.css" rel="stylesheet">
 <!--[if lt IE 9]>
@@ -31,6 +31,7 @@ $descripcion = "Pongan acá su descripción.";
 <ul class="nav masthead-nav">
 <li<?php if((basename($_SERVER['PHP_SELF']))=='index.php'){?> class="active" <?php };?>><a href="index.php">Portada</a></li>
 <li<?php if((basename($_SERVER['PHP_SELF']))=='about.php'){?> class="active" <?php };?>><a href="about.php">Sobre el proyecto</a></li>
+<li<?php if((basename($_SERVER['PHP_SELF']))=='amigui.php'){?> class="active" <?php };?>><a href="amigui.php">Datos amigos</a></li>
 </ul>
 </nav>
 </div>

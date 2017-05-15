@@ -15,7 +15,7 @@ for($a = 0; $a < $total = count($csv); $a++){?>
     <div class="col-xs-5 col-sm-3 col-md-2"><img src="<?php echo $csv[$a]['imagen'];?>" class="img-responsive"></div>
     <div class="col-xs-7 col-sm-9 col-md-10">
       <h3><?php echo $csv [$a] ['id'];?>. <?php echo $csv [$a] ['título'];?></h3>
-      <h5>Referencia<?php echo $csv[$a]['apa'];?></h5>
+      <h5>Referencia: <?php echo $csv[$a]['apa'];?></h5>
       <img src="<?php echo $csv[$a] [images];?>" class="img-responsive">
       <p><strong>Abstract:</strong> <?php echo $csv[$a]['texto'];?></p>
       <p><strong>Palabras claves:</strong> <?php echo $csv[$a]['tags'];?></p>
